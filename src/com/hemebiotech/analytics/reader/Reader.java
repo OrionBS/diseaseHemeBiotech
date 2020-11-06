@@ -4,8 +4,8 @@ import java.util.List;
 
 public interface Reader {
     /**
-     *
-     * @param pathIn
+     * Récupération d'une liste de string contenant les symptômes non triés ou comptés.
+     * @param pathIn chemin du fichier texte.
      * @return
      */
     public List<String> read(String pathIn);

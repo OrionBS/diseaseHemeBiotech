@@ -17,11 +17,9 @@ public class SymptomsFileReader implements Reader{
                 result.add(symptomsCurrentLine);
             }
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-
         } catch (IOException e) {
             e.printStackTrace();
+
         }
         return result;
     }
