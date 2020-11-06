@@ -5,8 +5,8 @@ import java.util.Map;
 
 public interface Processor {
     /**
-     *
-     * @param collection
+     * Récupère une collection de string et les identifies et les comptes.
+     * @param collection une map avec les symptomes.
      * @return
      */
     Map<String, Long> process(Collection<String> collection);
