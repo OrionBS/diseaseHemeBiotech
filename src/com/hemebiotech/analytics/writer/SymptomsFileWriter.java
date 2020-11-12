@@ -17,6 +17,7 @@ public class SymptomsFileWriter implements Writer {
             }
             System.out.println("Traitement terminé !");
         } catch (IOException e) {
+            System.out.println("ERREUR : La génération de fichier a échoué !");
             e.printStackTrace();
         }
 
