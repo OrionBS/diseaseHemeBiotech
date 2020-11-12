@@ -17,7 +17,12 @@ public class SymptomsFileReader implements Reader{
                 result.add(symptomsCurrentLine);
             }
 
-        } catch (IOException e) {
+        } catch (FileNotFoundException e) {
+            System.out.println("ERREUR : Le fichier n'a pas été trouvé ! "+pathIn+" introuvable.");
+        }
+
+        catch (IOException e) {
+            System.out.println("ERREUR : Le fichier n'a pas pu être lu.");
             e.printStackTrace();
 
         }
