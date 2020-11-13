@@ -6,15 +6,31 @@ L'objectif du projet est de récupérer les symptômes contenus dans un fichier 
 
 ## Pour commencer
 
-Entrez ici les instructions pour bien débuter avec votre projet...
+- Il faut disposer d'un fichier texte contenant les symptômes.
+    Avec pour nom : "symptoms.txt"
+    Dans le cas échéant, changer la variable **String "pathIn"** avec le nom que vous désirez.
+    
+- Un symptôme par ligne.
+    ex :
+    headache
+    insomnia
+    ...
+- Le programme va générer un fichier de type ".csv" pour traiter les informations sur un tableur.
+    Avec pour nom : "results.csv"
+    Dans le cas échéant, changer la variable **String "pathOut"** avec le nom que vous désirez.
+    Exemple de résultat :
+    headache,5
+    high blood pressure,6
+    insomnia,2
+    ...
 
 ### Pré-requis
 
-Ce qu'il est requis pour commencer avec votre projet...
+Ce projet nécessite,
+- de pouvoir lire un fichier contenant les symptômes dans la disposition citée précédement.
+- d'avoir un environnement de développement intégré (IDE) pour pouvoir lancer le programme correctement.
+- d'avoir Java JDK 13.
 
-- Programme 1
-- Programme 2
-- etc...
 
 ### Installation
 
