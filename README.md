@@ -17,9 +17,9 @@ L'objectif du projet est de récupérer les symptômes contenus dans un fichier 
     EXEMPLE de fichier texte :
  
     
-    headache
-    insomnia
-    ...
+    headache  
+    insomnia  
+    ...  
     
 - Le programme va générer un fichier de type ".csv" pour traiter les informations sur un tableur.
     
@@ -30,10 +30,10 @@ L'objectif du projet est de récupérer les symptômes contenus dans un fichier 
     EXEMPLE de résultat :
     
     
-    headache,5
-    high blood pressure,6
-    insomnia,2
-    ...
+    headache,5  
+    high blood pressure,6  
+    insomnia,2  
+    ...  
 
 ### Pré-requis
 
