@@ -7,18 +7,29 @@ L'objectif du projet est de récupérer les symptômes contenus dans un fichier 
 ## Pour commencer
 
 - Il faut disposer d'un fichier texte contenant les symptômes.
+    
     Avec pour nom : "symptoms.txt"
-    Dans le cas échéant, changer la variable **String "pathIn"** avec le nom que vous désirez.
+    
+    Dans le cas échéant, changer la variable **String `pathIn`** avec le nom que vous désirez.
     
 - Un symptôme par ligne.
-    ex :
+
+    EXEMPLE de fichier texte :
+ 
+    
     headache
     insomnia
     ...
+    
 - Le programme va générer un fichier de type ".csv" pour traiter les informations sur un tableur.
+    
     Avec pour nom : "results.csv"
-    Dans le cas échéant, changer la variable **String "pathOut"** avec le nom que vous désirez.
-    Exemple de résultat :
+    
+    Dans le cas échéant, changer la variable **String `pathOut`** avec le nom que vous désirez.
+    
+    EXEMPLE de résultat :
+    
+    
     headache,5
     high blood pressure,6
     insomnia,2
@@ -34,18 +45,14 @@ Ce projet nécessite,
 
 ### Installation
 
-Les étapes pour installer votre programme....
-
-Dites ce qu'il faut faire...
-
-_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
-
-
-Ensuite vous pouvez montrer ce que vous obtenez au final...
+Pour un installer ce projet,
+il suffit de le téléchargé, d'ouvrir le dossier dans votre IDE favori et de configurer le JRE vers Java 13.
 
 ## Démarrage
 
-Dites comment faire pour lancer votre projet
+Une fois le programme configurer, il suffit d'avoir le fichier texte avec les symptômes dans les dossier.
+
+Avec le nom `symptoms.txt`, à moins que vous modifier le String `pathIn`.
 
 ## Fabriqué avec
 
